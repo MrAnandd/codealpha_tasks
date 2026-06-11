@@ -1,58 +1,48 @@
-# Basic Network Sniffer
+Basic Network Sniffer
 
 A simple Python-based network packet sniffer that captures and analyzes network traffic in real time. The program monitors packets passing through a network interface, extracts useful information, and displays packet details such as source and destination IP addresses, protocols, ports, and payload data.
 
-## Features
+Features
 
-* Capture live network traffic
-* Detect common protocols (TCP, UDP)
-* Display source and destination IP addresses
-* Show source and destination ports
-* View packet payload data
-* Lightweight and easy to understand for networking beginners
+Capture live network traffic
+Detect common protocols (TCP, UDP)
+Display source and destination IP addresses
+Show source and destination ports
+View packet payload data
+Lightweight and easy to understand for networking beginners
 
-## Requirements
+==Requirements==
 
-* Python 3.x
-* Scapy library
-* Administrator/root privileges (required for packet capture)
+Python 3.x
+Scapy library
+Administrator/root privileges (required for packet capture)
 
-## Installation
+==Installation==
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/your-username/basic-network-sniffer.git
 cd basic-network-sniffer
-```
 
 2. Install dependencies:
 
-```bash
 pip install scapy
-```
 
-## Usage
+==Usage==
 
-Run the program with administrator/root privileges:
-
-```bash
-python network_sniffer.py
-```
+Run the program with administrator/root privileges: python network_sniffer.py
 
 The program will begin capturing packets and display information such as:
 
-* Protocol type
-* Source IP address
-* Destination IP address
-* Source port
-* Destination port
-* Packet payload (if available)
+    *Protocol type
+    *Source IP address
+    *Destination IP address
+    *Source port
+    *Destination port
+   *Packet payload (if available)
 
-## Example Output
+--------- Example Output---------
 
-```text
-==================================================
 Protocol: TCP
 Source IP: 192.168.1.10
 Destination IP: 142.250.193.78
